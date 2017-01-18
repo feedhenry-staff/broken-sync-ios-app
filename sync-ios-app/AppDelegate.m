@@ -34,7 +34,9 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+/// SYNTAX ERROR ON PURPOSE!
+
+- (BOOLAAAAAAAAAAAAAAAAAAAAAA)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     UINavigationController* navController = (UINavigationController*)self.window.rootViewController;
